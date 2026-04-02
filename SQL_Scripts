@@ -1,6 +1,6 @@
--- =============================================
--- 1. DATABASE & TABLES SETUP
--- =============================================
+///////////////////////////////////////////////
+   1. DATABASE & TABLES SETUP
+///////////////////////////////////////////////
 
 -- Create Athletes Table
 CREATE TABLE Athletes (
@@ -22,9 +22,9 @@ CREATE TABLE Training_Performance (
     FOREIGN KEY (Athlete_ID) REFERENCES Athletes(Athlete_ID)
 );
 
--- =============================================
+///////////////////////////////////////////////
 -- 2. DATA GENERATION (350+ Records)
--- =============================================
+///////////////////////////////////////////////
 
 -- Populate 50 Athletes
 INSERT INTO Athletes (Athlete_ID, Full_Name, Position, Age) VALUES
@@ -50,9 +50,9 @@ BEGIN
     SET @date = DATEADD(day, 1, @date);
 END
 
--- =============================================
+///////////////////////////////////////////////
 -- 3. ANALYSIS VIEW (Optional for Power BI)
--- =============================================
+///////////////////////////////////////////////
 CREATE VIEW v_AthleteSummary AS
 SELECT 
     a.Full_Name,
