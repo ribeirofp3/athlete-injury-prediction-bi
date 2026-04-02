@@ -1,0 +1,64 @@
+-- =============================================
+-- 1. DATABASE & TABLES SETUP
+-- =============================================
+
+-- Create Athletes Table
+CREATE TABLE Athletes (
+    Athlete_ID INT PRIMARY KEY,
+    Full_Name VARCHAR(100),
+    Position VARCHAR(50),
+    Age INT
+);
+
+-- Create Training Performance Table
+CREATE TABLE Training_Performance (
+    Session_ID INT PRIMARY KEY,
+    Athlete_ID INT,
+    Session_Date DATE,
+    Distance_KM DECIMAL(5,2),
+    Max_Speed_KMH DECIMAL(5,2),
+    Avg_Heart_Rate INT,
+    Reported_Fatigue INT,
+    FOREIGN KEY (Athlete_ID) REFERENCES Athletes(Athlete_ID)
+);
+
+-- =============================================
+-- 2. DATA GENERATION (350+ Records)
+-- =============================================
+
+-- Populate 50 Athletes
+INSERT INTO Athletes (Athlete_ID, Full_Name, Position, Age) VALUES
+(1, 'Andre Vardy', 'Forward', 34), (2, 'Hiroki Sato', 'Midfielder', 26), 
+-- ... (Add your other 48 athletes here)
+(50, 'Zlatan Ibrahim', 'Forward', 40);
+
+-- Generate 7 days of Randomized Training Data per Athlete
+DECLARE @date DATE = '2026-03-24';
+WHILE @date <= '2026-03-31'
+BEGIN
+    INSERT INTO Training_Performance (Session_ID, Athlete_ID, Session_Date, Distance_KM, Max_Speed_KMH, Avg_Heart_Rate, Reported_Fatigue)
+    SELECT 
+        (a.Athlete_ID + (CAST(DATEDIFF(day, '2026-01-01', @date) AS INT) * 100)), 
+        a.Athlete_ID, 
+        @date,
+        (5 + (ABS(CHECKSUM(NEWID())) % 801) / 100.0), -- Distance 5-13km
+        (22 + (ABS(CHECKSUM(NEWID())) % 1201) / 100.0), -- Speed 22-34km/h
+        (130 + (ABS(CHECKSUM(NEWID())) % 56)), -- HR 130-185
+        (1 + (ABS(CHECKSUM(NEWID())) % 10)) -- Fatigue 1-10
+    FROM Athletes a;
+    
+    SET @date = DATEADD(day, 1, @date);
+END
+
+-- =============================================
+-- 3. ANALYSIS VIEW (Optional for Power BI)
+-- =============================================
+CREATE VIEW v_AthleteSummary AS
+SELECT 
+    a.Full_Name,
+    a.Position,
+    AVG(t.Distance_KM) as Avg_Distance,
+    AVG(t.Reported_Fatigue) as Avg_Fatigue
+FROM Athletes a
+JOIN Training_Performance t ON a.Athlete_ID = t.Athlete_ID
+GROUP BY a.Full_Name, a.Position;
