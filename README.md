@@ -18,9 +18,9 @@ This project provides a **Data-Driven solution** for sports science and medical 
 * **Dynamic Data Modeling:** Star Schema architecture for optimized performance.
 
 ## Business Insights
-* **Knee Injuries** are the primary cause of absence, accounting for **69% of total days out** in this dataset.
-* Athletes with a **Workload Ratio > 1.2** and **Fatigue > 7** are flagged for immediate recovery sessions.
-* The system allows the coaching staff to adjust training intensity before injuries occur, optimizing squad availability.
+* **Visual Storytelling:** The dashboard utilizes conditional formatting to highlight critical injury areas. **Knee injuries** represent nearly **50% of total days out**, signaling a need for specific preventive strength training.
+* **Risk Correlation:** By plotting Workload vs. Fatigue, we can see that athletes in the **Upper Right Quadrant** (High Workload/High Fatigue) are at imminent risk.
+* **Data Granularity:** The report processes over 350 individual training sessions to calculate precise averages, moving beyond static snapshots to trend-based analysis.
 
 ## How to Reproduce
 1.  Run the scripts in `/SQL_Scripts` to set up the database and populate it with 350+ training records.
