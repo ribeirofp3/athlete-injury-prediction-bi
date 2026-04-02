@@ -2,6 +2,8 @@
 
 # Athlete Injury Risk & Performance Analytics Dashboard
 
+![Dashboard Performance](Screenshots/Power_BI_Dashboard.png)
+
 ## Project Overview
 This project provides a **Data-Driven solution** for sports science and medical departments to monitor athlete workload and prevent non-contact injuries. By integrating **SQL Server** for data architecture and **Power BI** for advanced analytics, the dashboard identifies athletes in the "Danger Zone" based on their Workload Ratio and Fatigue levels.
 
