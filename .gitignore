@@ -1,0 +1,14 @@
+# Power BI / Cache files
+*.pbix.zip
+*.pbit
+*.log
+*.tmp
+
+# SQL Server files
+*.bak
+*.ldf
+*.mdf
+
+# System files
+.DS_Store
+Thumbs.db
