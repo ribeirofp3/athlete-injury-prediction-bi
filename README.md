@@ -38,4 +38,6 @@ Following the analysis of 50 athletes and over 350 training sessions, the follow
 
 ---
 **Author:** Fabrizio Ribeiro Pinto  
-**LinkedIn:** [Your LinkedIn Link]
+**LinkedIn:** www.linkedin.com/in/fabrizio-ribeiro-pinto
+
+
