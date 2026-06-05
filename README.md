@@ -1,5 +1,5 @@
 
-# Athlete-Injury-Prediction-bi
+# Athlete-Injury-Prediction-BI
 
 ## Project Overview
 This project provides a **Data-Driven solution** for sports science and medical departments to monitor athlete workload and prevent non-contact injuries. By integrating **SQL Server** for data architecture and **Power BI** for advanced analytics, the dashboard identifies athletes in the "Danger Zone" based on their Workload Ratio and Fatigue levels.
@@ -8,7 +8,7 @@ This project provides a **Data-Driven solution** for sports science and medical 
 * **Database:** SQL Server (T-SQL)
 * **Data Visualization:** Power BI
 * **Analytics Logic:** DAX (Data Analysis Expressions)
-* **Concepts:** Acute:Chronic Workload Ratio (ACWR), Sports Medicine, Injury Prevention.
+* **Concepts:** Acute Chronic Workload Ratio (ACWR), Sports Medicine, Injury Prevention.
 
 ## Key Features
 * **Injury Risk Matrix:** A Scatter Plot correlating *Workload Ratio* vs. *Reported Fatigue* to identify overtraining.
