@@ -1,10 +1,6 @@
 
 # athlete-injury-prediction-bi
 
-# Athlete Injury Risk & Performance Analytics Dashboard
-
-<img width="2000" height="1156" alt="ATHLETE" src="https://github.com/user-attachments/assets/1cbc2cc1-f094-4c9a-aae0-907c1d96fcdb" />
-
 ## Project Overview
 This project provides a **Data-Driven solution** for sports science and medical departments to monitor athlete workload and prevent non-contact injuries. By integrating **SQL Server** for data architecture and **Power BI** for advanced analytics, the dashboard identifies athletes in the "Danger Zone" based on their Workload Ratio and Fatigue levels.
 
@@ -19,6 +15,10 @@ This project provides a **Data-Driven solution** for sports science and medical 
 * **Medical Impact Analysis:** Breakdown of injuries by body part (Knee, Hamstring, etc.) and total days lost.
 * **Real-time KPIs:** Instant visibility into Squad Availability and Injury Counts.
 * **Dynamic Data Modeling:** Star Schema architecture for optimized performance.
+
+# Athlete Injury Risk & Performance Analytics Dashboard
+
+<img width="2000" height="1156" alt="ATHLETE" src="https://github.com/user-attachments/assets/1cbc2cc1-f094-4c9a-aae0-907c1d96fcdb" />
 
 ## Business Insights & Findings
 
