@@ -34,8 +34,6 @@ Following the analysis of 50 athletes and over 350 training sessions, the follow
 ![Athlete Injury Risk & Performance Analytics Dashboard](PowerBI_Report/png_Report/Power_BI_Dashboard.png)
 
 
-*Click at the link to download the PDF Report     [Download PDF](PowerBI_Report/PDF_Report.pdf)
-
 ## How to Reproduce
 1.  Run the scripts in `/SQL_Scripts` to set up the database and populate it with 350+ training records.
 2.  Open the `.pbix` file in `/PowerBI_Report`.
