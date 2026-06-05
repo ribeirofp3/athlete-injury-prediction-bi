@@ -18,7 +18,7 @@ This project provides a **Data-Driven solution** for sports science and medical 
 
 # Athlete Injury Risk & Performance Analytics Dashboard
 
-<img width="2000" height="1156" alt="ATHLETE" src="https://github.com/user-attachments/assets/1cbc2cc1-f094-4c9a-aae0-907c1d96fcdb" />
+![Athlete Injury Risk & Performance Analytics Dashboard](pOWERbi_rEPORT/png_Report/POwer_BI_Dashboard.png)
 
 ## Business Insights & Findings
 
