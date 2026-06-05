@@ -16,10 +16,6 @@ This project provides a **Data-Driven solution** for sports science and medical 
 * **Real-time KPIs:** Instant visibility into Squad Availability and Injury Counts.
 * **Dynamic Data Modeling:** Star Schema architecture for optimized performance.
 
-# Athlete Injury Risk & Performance Analytics Dashboard
-
-![Athlete Injury Risk & Performance Analytics Dashboard](PowerBI_Report/png_Report/Power_BI_Dashboard.png)
-
 ## Business Insights & Findings
 
 Following the analysis of 50 athletes and over 350 training sessions, the following patterns were identified to support coaching staff decision-making:
@@ -33,7 +29,9 @@ Following the analysis of 50 athletes and over 350 training sessions, the follow
 
 ##**Visualization:**
 
-![Athlete Injury Risk & Performance Analytics Dashboard](PowerBI_Report/PDF_Report.pdf)
+# Athlete Injury Risk & Performance Analytics Dashboard
+
+![Athlete Injury Risk & Performance Analytics Dashboard](PowerBI_Report/png_Report/Power_BI_Dashboard.png)
 
 
 *Click at the link to download the PDF Report     [Download PDF](PowerBI_Report/PDF_Report.pdf)
