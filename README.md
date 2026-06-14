@@ -29,7 +29,7 @@ Following the analysis of 50 athletes and over 350 training sessions, the follow
 * **Underloading Identification:** Approximately 8 athletes maintained a ratio consistently below 0.8. This indicates a state of "de-training," where they are not being sufficiently challenged to maintain peak competitive levels.
 * **Recommended Action:** Gradual increase in training load to prevent performance regression.
 
-**## Visualization:**
+## Visualization:
 
 # Athlete Injury Risk & Performance Analytics Dashboard
 
