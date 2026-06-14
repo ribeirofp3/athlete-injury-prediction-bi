@@ -24,7 +24,7 @@ Following the analysis of 50 athletes and over 350 training sessions, the follow
 * **Recommended Action:** Immediate 20% reduction in training load (distance/intensity) for these specific athletes.
 * Fatigue vs Intensity Correlation: A strong positive correlation (approx 0.82) was observed between
 * Distance_KM and Reported_Fatigue: Interestingly, Midfielders reach a fatigue level of 8 with 15% less distance covered compared to Defenders.
-* 
+  
 * **Insight:** The metabolic wear for midfielders is more accelerated, necessitating more frequent recovery protocols.
   
 * **Underloading Identification:** Approximately 8 athletes maintained a ratio consistently below 0.8. This indicates a state of "de-training," where they are not being sufficiently challenged to maintain peak competitive levels.
