@@ -33,6 +33,7 @@ Following the analysis of 50 athletes and over 350 training sessions, the follow
 
 # Athlete Injury Risk & Performance Analytics Dashboard
 
+<img width="2000" height="1156" alt="Power_BI_Dashboard" src="https://github.com/user-attachments/assets/3fd24be6-4609-4f03-8c9f-2a356aba147d" />
 
 
 ## How to Reproduce
